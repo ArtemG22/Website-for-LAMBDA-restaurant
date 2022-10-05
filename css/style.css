@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {    
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
 /******************************/
 /* HEADER */
 /******************************/
@@ -84,12 +89,12 @@
 /******************************/
 
 .promo-section {       
-    width: 84.3rem;
+    max-width: 100%;
     height: 39.5rem;    
 }
 
 .promo-banner {    
-    background: url('banners/banner-1.jpg');
+    background: url('../gallery/banners/promo-banner.jpg');
     background-size: cover;
     width: inherit;
     height: 39.5rem;
@@ -98,7 +103,7 @@
 }
 
 .promo-slogan {      
-    width: 100%;
+    width: inherit;
     height: 25rem;
     margin-top: 10rem;          
 }
