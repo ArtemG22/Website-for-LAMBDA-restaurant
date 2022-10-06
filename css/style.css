@@ -1,12 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {    
-    font-size: 100%;
-    overflow-x: hidden;
+  font-size: 100%;
+  overflow-x: hidden;
 }
 
 /******************************/
@@ -14,20 +14,20 @@ html {
 /******************************/
 
 .header {
-    position: absolute;
-    display: flex;
-    width: 100%;        
-    justify-content: space-around;      
-    padding: 2rem 0 1rem 1rem;
+  position: absolute;
+  display: flex;
+  width: 100%;        
+  justify-content: space-around;      
+  padding: 2rem 0 1rem 1rem;
     
     /* Затемнение верхней границы */
-    background: linear-gradient(to bottom, black -100%, transparent 90%);
-    height: 8rem;
+  background: linear-gradient(to bottom, black -100%, transparent 90%);
+  height: 8rem;
 }
 
 .logo {
-    height: 2.8rem;
-    margin-top: 0.3rem;
+  height: 2.8rem;
+  margin-top: 0.3rem;
 }
 
 /******************************/
@@ -35,53 +35,53 @@ html {
 /******************************/
 
 .main-nav-list {    
-    list-style: none;
-    display: flex;
-    gap: 2.6rem;
-    padding-right: 10rem;
-    margin-top: 1rem;         
+  list-style: none;
+  display: flex;
+  gap: 2.6rem;
+  padding-right: 10rem;
+  margin-top: 1rem;         
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-style: normal;
-    font-size: 1.2rem;
-    font-weight: 600;
-    transition: all 0.3;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);  
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);  
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: rgba(215, 255, 253, 1);
+  color: rgba(215, 255, 253, 1);
 }
 
 .social-links {
-    list-style: none;
-    display: flex;
-    gap: 0.6rem;
-    margin-left: 81%;
-    margin-top: -1.2rem;    
+  list-style: none;
+  display: flex;
+  gap: 0.6rem;
+  margin-left: 81%;
+  margin-top: -1.2rem;    
 }
 
 .social-icon {
-    height: 1.2rem;
-    width: 1.2rem;   
+  height: 1.2rem;
+  width: 1.2rem;   
 }
 
 .social-link:link,
 .social-link:visited {
-    text-decoration: none;
-    color: rgba(255, 230, 0, 0.8);
-    transition: all 0.3s;
+  text-decoration: none;
+  color: rgba(255, 230, 0, 0.8);
+  transition: all 0.3s;
 }
 
 .social-link:hover,
 .social-link:active {
-    color: rgba(255, 230, 0, 0.5);
+  color: rgba(255, 230, 0, 0.5);
 }
 
 /******************************/
@@ -89,96 +89,96 @@ html {
 /******************************/
 
 .promo-section {       
-    max-width: 100%;
-    height: 39.5rem;    
+  max-width: 100%;
+  height: 39.5rem;    
 }
 
 .promo-banner {    
-    background: url('../gallery/banners/promo-banner.jpg');
-    background-size: cover;
-    width: inherit;
-    height: 39.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  background: url('../gallery/banners/promo-banner.jpg');
+  background-size: cover;
+  width: inherit;
+  height: 39.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .promo-slogan {      
-    width: inherit;
-    height: 25rem;
-    margin-top: 10rem;          
+  width: inherit;
+  height: 25rem;
+  margin-top: 10rem;          
 }
 
 .slogan {    
-    width: inherit;
-    padding: 0 2rem;  
-    font-family: "Yeseva One", sans-serif;       
-    text-align: center;
-    font-size: 4.8rem;
-    font-weight: 100;        
-    color: white;   
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5); 
+  width: inherit;
+  padding: 0 2rem;  
+  font-family: "Yeseva One", sans-serif;       
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 100;        
+  color: white;   
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5); 
 }
 
 .promo-decoration {    
-    width: inherit;
-    height: 3.5rem;
-    text-align: center;
-    padding: 0 2rem;
-    margin-top: 1.6rem;     
+  width: inherit;
+  height: 3.5rem;
+  text-align: center;
+  padding: 0 2rem;
+  margin-top: 1.6rem;     
 }
 
 .decoration {        
-    width: 12rem;      
+  width: 12rem;      
 }
 
 .buttons-bar {    
-    width: inherit;
-    height: 3.5rem;
-    padding: 0 2rem;
-    text-align: center;
+  width: inherit;
+  height: 3.5rem;
+  padding: 0 2rem;
+  text-align: center;
 }
 
 .buttons {      
-    font-family: "Arial", sans-serif;    
+  font-family: "Arial", sans-serif;    
 }
 
 .btn,
 .btn:link,
 .btn:visited {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 100;
-    padding: 1rem 2.5rem;    
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    transition: all 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 100;
+  padding: 1rem 2.5rem;    
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
 .btn--full:visited {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    margin-right: 1.2rem;    
-    border: 1px solid rgba(0, 0, 0, 0.7);    
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  margin-right: 1.2rem;    
+  border: 1px solid rgba(0, 0, 0, 0.7);    
 }
 
 .btn--full:hover,
 .btn--full:active {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #fff;       
-    border: 1px solid rgba(255, 255, 255, 0.4);   
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;       
+  border: 1px solid rgba(255, 255, 255, 0.4);   
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
