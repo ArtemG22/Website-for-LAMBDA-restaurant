@@ -18,9 +18,7 @@ html {
   display: flex;
   width: 100%;        
   justify-content: space-around;      
-  padding: 2rem 0 1rem 1rem;
-    
-    /* Затемнение верхней границы */
+  padding: 2rem 0 1rem 1rem;    
   background: linear-gradient(to bottom, black -100%, transparent 90%);
   height: 8rem;
 }
