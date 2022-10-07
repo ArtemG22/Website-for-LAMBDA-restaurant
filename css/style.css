@@ -54,20 +54,16 @@ html {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: rgba(215, 255, 253, 1);
+  opacity: 75%;
+  transition: 0.3s;
 }
 
 .social-links {
   list-style: none;
   display: flex;
   gap: 0.6rem;
-  margin-left: 81%;
+  margin-left: 82%;
   margin-top: -1.2rem;    
-}
-
-.social-icon {
-  height: 1.2rem;
-  width: 1.2rem;   
 }
 
 .social-link:link,
@@ -79,7 +75,8 @@ html {
 
 .social-link:hover,
 .social-link:active {
-  color: rgba(255, 230, 0, 0.5);
+  opacity: 50%;
+  transition: 0.3s;
 }
 
 /******************************/
