@@ -31,7 +31,7 @@ html {
 
 .logo {
   height: 2rem;
-  margin-right: 3rem;  
+  margin-right: 2rem;
 }
 
 /******************************/
@@ -42,7 +42,7 @@ html {
   list-style: none;
   display: flex;
   gap: 2.5rem;
-  margin-left: 9rem;
+  margin-left: 5rem;
 }
 
 .main-nav-link:link,
@@ -68,6 +68,7 @@ html {
   display: flex;
   gap: 0.6rem;
   margin-left: 1rem;
+  margin-right: 2.2rem;
 }
 
 .social-link:link,
