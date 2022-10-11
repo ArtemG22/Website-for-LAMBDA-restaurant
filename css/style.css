@@ -111,6 +111,7 @@ html {
   width: inherit;
   padding: 0 2rem;
   font-family: "Yeseva One", sans-serif;
+  text-transform: lowercase;
   text-align: center;
   font-size: 4.8rem;
   font-weight: 100;
