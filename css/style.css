@@ -30,19 +30,29 @@ html {
 }
 
 .logo {
+  font-family: "Yeseva One", sans-serif;
   height: 2rem;
-  margin-right: 1.5rem;
+  margin-left: 9.5rem;
+  color: #fff;  
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  opacity: 0.9;  
 }
 
 /******************************/
 /* NAVIGATION */
 /******************************/
 
+.container-nav {
+  margin-left: 0;
+  margin-right: auto;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
   gap: 2.5rem;
-  margin-left: 5rem;
+  margin-left: 12.5rem;
 }
 
 .main-nav-link:link,
