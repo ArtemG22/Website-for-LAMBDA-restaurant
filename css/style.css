@@ -75,11 +75,12 @@ html {
 }
 
 .social-links {
-  list-style: none;
+  list-style: none;  
   display: flex;
-  gap: 0.6rem;
-  margin-left: 1rem;
+  gap: 0.8rem;
+  margin-left: 1.3rem;
   margin-right: 5rem;
+  margin-top: 0.5rem;
 }
 
 .social-link:link,
