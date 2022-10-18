@@ -31,6 +31,7 @@ html {
 
 .logo {
   font-family: "Yeseva One", sans-serif;
+  text-decoration: none; 
   height: 2rem;
   margin-left: 9.5rem;
   color: #fff;  
@@ -52,7 +53,7 @@ html {
   list-style: none;
   display: flex;
   gap: 2.5rem;
-  margin-left: 12.5rem;
+  margin-left: 12.8rem;
 }
 
 .main-nav-link:link,
