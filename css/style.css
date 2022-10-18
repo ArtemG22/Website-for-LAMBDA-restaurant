@@ -70,7 +70,6 @@ html {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  text-decoration-line: underline;
   opacity: 75%;
   transition: 0.3s;
 }
