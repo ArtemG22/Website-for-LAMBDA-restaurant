@@ -207,7 +207,7 @@ html {
 .main-nav-link::before {
   content: "";
   position: absolute;
-  bottom: 290%;
+  bottom: 4rem;
   width: 100%;
   height: 0.2rem;
   background: rgba(255, 255, 255, 0.9);
