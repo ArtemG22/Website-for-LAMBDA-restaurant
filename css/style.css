@@ -35,8 +35,7 @@ body {
   position: absolute;
   display: flex;
   width: 160rem;
-  height: 12rem;
-  flex-direction: row;
+  height: 12rem;  
   justify-content: center;
   align-items: center;  
   padding: 0 16.4rem;
@@ -45,8 +44,7 @@ body {
 
 .logo-menu-bar {
   height: inherit;
-  display: flex;
-  flex-direction: row;
+  display: flex;  
   justify-content: space-between;
   align-items: center;
   width: inherit;
