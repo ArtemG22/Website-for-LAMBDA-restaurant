@@ -35,16 +35,17 @@ body {
   position: absolute;
   display: flex;
   width: 160rem;
-  height: 12rem;  
+  height: 12rem;
   justify-content: center;
-  align-items: center;  
-  padding: 0 16.4rem;
+  align-items: center;
+  padding: 0 16.8rem;
   background: linear-gradient(to bottom, black -100%, transparent 90%);
+  gap: 0.8rem;
 }
 
 .logo-menu-bar {
   height: inherit;
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: inherit;
@@ -55,7 +56,7 @@ body {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3.6rem;
   opacity: 0.9;
   padding: 1rem;
 }
@@ -67,8 +68,7 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
-  padding-right: 0.6rem;
+  gap: 3.24rem;
 }
 
 .main-nav-link,
@@ -81,7 +81,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-style: normal;
-  font-size: 2.1rem;
+  font-size: 2.14rem;
   font-weight: 600;
   transition: all 0.3;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
@@ -95,7 +95,7 @@ body {
 }
 
 .main-nav-link.is-active {
-  opacity: 84%;
+  opacity: 100%;
   border-top: 0.36rem solid #fff;
 }
 
@@ -108,7 +108,7 @@ body {
   list-style: none;
   display: flex;
   gap: 1.6rem;
-  padding-right: 5rem;
+  padding-right: 3.6rem;
   align-items: center;
 }
 
