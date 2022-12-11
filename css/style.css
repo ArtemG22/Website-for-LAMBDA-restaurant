@@ -228,3 +228,75 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   color: #F5F5F5;
 }
+
+/******************************/
+/* ABOUT SECTION */
+/******************************/
+
+.about-section {
+  max-width: 160rem;
+  height: 71rem;
+}
+
+.banner-about-section {
+  background: url('../gallery/banners/about-banner.jpg');
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+  padding-top: 5.6rem;
+}
+
+.grid-about-section {
+  max-width: 140rem;
+  margin-left: 4.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.slogan-about-section {
+  width: inherit;
+  margin-top: 4.4rem;
+  font-family: "Yeseva One", sans-serif;
+  padding-left: 20.6rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 100;
+  color: #e69824;
+}
+
+.decoration-about-section {
+  width: inherit;
+  padding-left: 20.6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.decoration-about {
+  width: 25rem;
+}
+
+.description-about-section {
+  width: inherit;
+  padding: 0 2rem 0 22.6rem;
+  font-family: "Aria", sans-serif;
+  text-align: center;
+  margin-top: 2.6rem;
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: #000;
+  line-height: 2.4rem;
+}
+
+.cook-img-box {
+  padding-left: 20.6rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.cook-img {
+  width: 30rem;
+}
+
+.meal-img {
+  width: 63rem;
+}
