@@ -17,14 +17,8 @@ html {
 }
 
 .wrapper {
-  max-width: 160rem;
+  width: 160rem;
   margin: 0 auto;
-}
-
-.promo {
-  max-width: 160rem;
-  height: 75rem;
-
 }
 
 /******************************/
@@ -38,7 +32,8 @@ html {
   height: 12rem;
   justify-content: center;
   align-items: center;
-  padding: 0 18rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
   background: linear-gradient(to bottom, black -100%, transparent 90%);
   gap: 0.8rem;
 }
@@ -82,7 +77,7 @@ html {
   font-style: normal;
   font-size: 2.2rem;
   font-weight: 600;
-  transition: all 0.3;
+  transition: all 0.3s;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
   border-top: 0.38rem solid transparent;
 }
@@ -123,8 +118,7 @@ html {
   margin: 0.2rem;
 }
 
-.social-link:hover,
-.social-link:active {
+.social-link:hover {
   opacity: 50%;
   transition: 0.3s;
 }
@@ -162,7 +156,7 @@ html {
   font-size: 9rem;
   line-height: 11.4rem;
   font-weight: 100;
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
 }
 
@@ -206,7 +200,7 @@ html {
 .btn--full:link,
 .btn--full:visited {
   background-color: rgba(0, 0, 0, 0.6);
-  color: #F5F5F5;
+  color: #f5f5f5;
   margin-right: 2.8rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.7);
 }
@@ -214,18 +208,18 @@ html {
 .btn--full:hover,
 .btn--full:active {
   background-color: rgba(255, 255, 255, 0.3);
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #F5F5F5;
+  color: #f5f5f5;
   border: 0.1rem solid rgba(255, 255, 255, 0.4);
 }
 
 .btn--outline:hover,
 .btn--outline:active {
   background-color: rgba(0, 0, 0, 0.6);
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
