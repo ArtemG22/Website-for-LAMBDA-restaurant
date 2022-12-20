@@ -14,17 +14,15 @@ Font sizes (px)
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
-body {
-  line-height: 1;
-  overflow-x: hidden;
+.wrapper {
+  max-width: 160rem;
+  margin: 0 auto;  
 }
 
 .promo {
-  max-width: 160rem;
-  margin: 0 auto;
+  max-width: 160rem;  
 }
 
 /******************************/
