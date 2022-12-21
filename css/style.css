@@ -133,8 +133,7 @@ html {
 
 .promo-banner {
   background: url('../gallery/banners/promo-banner.jpg');
-  background-size: cover;
-  width: 160rem;
+  background-size: cover;  
   height: 75rem;
   padding-top: 12rem;
   padding-bottom: 2rem;
