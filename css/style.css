@@ -38,12 +38,12 @@ html {
   gap: 0.8rem;
 }
 
-.logo-menu-bar {
-  height: inherit;
+.logo-menu-bar {  
+  width: 160rem;
+  height: 12rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: inherit;
+  align-items: center;  
 }
 
 .logo {
@@ -62,14 +62,14 @@ html {
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2.6rem;
 }
 
 .main-nav-link,
 .main-nav-link:link,
 .main-nav-link:visited,
 .main-nav-link:active {
-  padding: 4.8rem 1rem;
+  padding: 4.8rem 1.2rem;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -94,7 +94,7 @@ html {
 }
 
 .main-nav-link:focus {
-  opacity: 84%;
+  opacity: 75%;
   border-top: 0.38rem solid #fff;
 }
 
@@ -119,8 +119,8 @@ html {
 }
 
 .social-link:hover {
-  opacity: 50%;
-  transition: 0.3s;
+  opacity: 75%;
+  transition: opacity 0.3s;
 }
 
 /******************************/
