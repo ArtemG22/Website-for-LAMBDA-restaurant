@@ -38,11 +38,10 @@ html {
   gap: 0.8rem;
 }
 
-.logo-menu-bar {  
-  width: 160rem;
-  height: 12rem;
+.logo-menu-bar {      
   display: flex;
   justify-content: space-between;
+  gap: 22.8rem;
   align-items: center;  
 }
 
@@ -103,7 +102,7 @@ html {
   list-style: none;
   display: flex;
   gap: 0.8rem;
-  padding-right: 3.6rem;
+  padding-right: 2.8rem;
   align-items: center;
 }
 
