@@ -134,14 +134,12 @@ html {
 .promo-banner {
   background: url('../gallery/banners/promo-banner.jpg');
   background-size: cover;  
-  height: 75rem;
-  padding-top: 12rem;
-  padding-bottom: 2rem;
+  padding-top: 12rem;  
 }
 
 .promo-slogan {
   width: inherit;
-  height: 25rem;
+  height: 53.4rem;
   margin-top: 9.6rem;
 }
 
