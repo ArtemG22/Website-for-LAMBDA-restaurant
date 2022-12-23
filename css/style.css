@@ -137,15 +137,14 @@ html {
   padding-top: 12rem;  
 }
 
-.promo-slogan {
+.promo-slogan-and-elements {
   width: inherit;
   height: 53.4rem;
   margin-top: 9.6rem;
 }
 
-.slogan {
-  width: inherit;
-  padding: 0 2rem;
+.promo-slogan {
+  width: inherit;  
   font-family: "Yeseva One", sans-serif;
   text-transform: lowercase;
   text-align: center;
