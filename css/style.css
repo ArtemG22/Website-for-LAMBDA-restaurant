@@ -16,7 +16,7 @@ html {
   font-size: 62.5%;
 }
 
-.wrapper {
+.main-wrapper {
   width: 160rem;
   margin: 0 auto;
 }
@@ -25,7 +25,7 @@ html {
 /* HEADER */
 /******************************/
 
-.header {
+.promo-header {
   position: absolute;
   display: flex;
   width: 160rem;
@@ -130,8 +130,7 @@ html {
 /* PROMO SECTION */
 /******************************/
 
-.promo-section {
-  /* width: 160rem;   */
+.promo-body {  
 }
 
 .promo-banner {
