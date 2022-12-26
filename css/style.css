@@ -36,6 +36,7 @@ html {
 }
 
 .main-header {
+  width: 160rem;
   position: absolute;
   display: flex;  
   align-items: center;
@@ -132,6 +133,7 @@ html {
   background: url('../gallery/banners/promo-banner.jpg');
   background-size: cover;
   padding-top: 12rem;
+  height: 75rem;
 }
 
 .promo-slogan-and-elements {
