@@ -25,27 +25,20 @@ html {
 /* HEADER */
 /******************************/
 
-.promo-header {
-  position: absolute;
-  display: flex;  
-  height: 12rem;  
-  align-items: center;
-  padding-left: 18rem;    
-  gap: 0.8rem;
-}
-
 .header-shadow {
   width: 160rem;
-  position: absolute;  
-  height: 12rem;    
-  background: linear-gradient(to bottom, black -100%, transparent 90%);  
+  position: absolute;
+  height: 12rem;
+  background: linear-gradient(to bottom, black -100%, transparent 90%);
 }
 
-.logo-menu-bar {
+.promo-header {
+  position: absolute;
   display: flex;
-  justify-content: space-between;
-  gap: 22.8rem;
+  height: 12rem;
   align-items: center;
+  padding-left: 18rem;
+  gap: 0.8rem;
 }
 
 .logo {
@@ -55,6 +48,7 @@ html {
   text-transform: uppercase;
   font-size: 3.6rem;
   opacity: 90%;
+  margin-right: 22rem;
 }
 
 /******************************/
@@ -108,8 +102,8 @@ html {
   margin-top: 0.8rem;
   list-style: none;
   display: flex;
-  gap: 0.8rem;  
-  align-items: center;  
+  gap: 0.8rem;
+  align-items: center;
 }
 
 .social-link:link,
@@ -120,12 +114,12 @@ html {
   transition: all 0.3s;
   font-size: 2rem;
   align-items: center;
-  margin: 0.2rem;  
+  margin: 0.2rem;
 }
 
 .social-link:hover {
   opacity: 75%;
-  transition: opacity 0.3s; 
+  transition: opacity 0.3s;
 }
 
 /******************************/
@@ -134,8 +128,8 @@ html {
 
 .promo-banner {
   background: url('../gallery/banners/promo-banner.jpg');
-  background-size: cover;  
-  padding-top: 12rem;  
+  background-size: cover;
+  padding-top: 12rem;
 }
 
 .promo-slogan-and-elements {
@@ -162,7 +156,7 @@ html {
   width: 23.4rem;
 }
 
-.buttons-bar {  
+.buttons-bar {
   padding: 0 2rem;
   text-align: center;
   margin-top: 2.8rem;
