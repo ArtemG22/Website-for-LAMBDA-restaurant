@@ -99,7 +99,7 @@ html {
   opacity: 100%;
 }
 
-.main-nav-link.is-active:hover:before {
+.main-nav-link.is-active:before {
   opacity: 70%;
   content: '';
   width: 100%;
