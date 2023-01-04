@@ -67,10 +67,7 @@ html {
   gap: 5rem;
 }
 
-.main-nav-link,
-.main-nav-link:link,
-.main-nav-link:visited,
-.main-nav-link:active {
+.main-nav-link {
   padding: 4.8rem 0;
   position: relative;
   display: inline-block;
@@ -78,34 +75,47 @@ html {
   color: #fff;
   font-style: normal;
   font-size: 2.2rem;
-  font-weight: 600;
-  transition: all 0.3s;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-  border-top: 0.38rem solid transparent;
+  font-weight: 600;  
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3); 
 }
 
-.main-nav-link:hover,
-.main-nav-link:active {
-  opacity: 75%;
+.main-nav-link:hover {
+  opacity: 70%;
   transition: opacity 0.3s;
+}
+
+.main-nav-link:hover:before {
+  content: '';
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  top: 0;    
+  position: absolute;
+  border-top: 0.3rem solid #fff;  
+  transform: translate(-1.2rem, 0);
 }
 
 .main-nav-link.is-active {
   opacity: 100%;
-  border-top: 0.38rem solid #fff;
 }
 
-.main-nav-link:focus {
-  opacity: 75%;
-  border-top: 0.38rem solid #fff;
+.main-nav-link.is-active:hover:before {
+  opacity: 70%;
+  content: '';
+  width: 100%;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  top: 0;    
+  position: absolute;
+  border-top: 0.3rem solid #fff;  
+  transform: translate(-1.2rem, 0);
 }
 
 /******************************/
 /* SOCIAL-LINKS */
 /******************************/
 
-.social-links {
-  margin-top: 0.8rem;
+.social-links {  
   list-style: none;
   display: flex;
   gap: 0.8rem;
