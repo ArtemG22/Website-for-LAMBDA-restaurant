@@ -67,7 +67,10 @@ html {
   gap: 5rem;
 }
 
-.main-nav-link {
+.main-nav-link,
+.main-nav-link:link,
+.main-nav-link:visited,
+.main-nav-link:active {
   padding: 4.8rem 0;
   position: relative;
   display: inline-block;
