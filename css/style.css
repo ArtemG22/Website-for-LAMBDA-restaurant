@@ -114,27 +114,15 @@ html {
   opacity: 0;   
 } */
 
-.nav-link.is-active {
+.nav-link.is-active:hover {
   opacity: 100%;
 }
 
 .nav-link.is-active:before {
-  content: '';
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-top: 4px solid #fff;
   opacity: 70%;
 }
 
 .nav-link:hover:before {
-  content: '';
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-top: 4px solid #fff;
   opacity: 70%;
 }
 
