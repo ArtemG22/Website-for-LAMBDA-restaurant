@@ -63,7 +63,12 @@ html {
   display: flex;
 }
 
-.nav {
+nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-bar {
   list-style: none;
   display: flex;
   gap: 2.6rem;
@@ -88,41 +93,12 @@ html {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.nav-link:hover {
-  opacity: 70%;
-  transition: opacity 0.3s;
+.nav-link.is-active {
+  cursor: default;
 }
 
-/* .nav-link.is-active:hover:before {  
-  content: '';
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-top: 4px solid #fff;
-  opacity: 1;    
-}
-
+.nav-link:hover:before,
 .nav-link.is-active:before {
-  content: '';
-  width: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-top: 4px solid #fff;  
-  transition: opacity 0.5s;
-  opacity: 0;   
-} */
-
-.nav-link.is-active:hover {
-  opacity: 100%;
-}
-
-.nav-link.is-active:before {
-  opacity: 70%;
-}
-
-.nav-link:hover:before {
   opacity: 70%;
 }
 
