@@ -67,13 +67,16 @@ html {
   list-style: none;
   display: flex;
   gap: 2.6rem;
-  align-items: center;
+  align-items: stretch;
 }
 
 .nav-link,
 .nav-link:link,
 .nav-link:visited,
 .nav-link:active {
+  display: flex;
+  height: 100%;
+  align-items: center;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   text-decoration: none;
@@ -97,7 +100,6 @@ html {
   left: 0;
   position: absolute;
   border-top: 4px solid #fff;
-  transform: translate(0, -4.8rem);
 }
 
 .nav-link.is-active {
@@ -112,7 +114,6 @@ html {
   left: 0;
   position: absolute;
   border-top: 4px solid #fff;
-  transform: translate(0, -4.8rem);
 }
 
 /******************************/
