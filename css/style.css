@@ -43,7 +43,7 @@ html {
   display: flex;
   padding-left: 18rem;
   padding-right: 18rem;
-  gap: 3.8rem;
+  gap: 2.6rem;
   justify-content: space-between;
 }
 
@@ -63,16 +63,12 @@ html {
   display: flex;
 }
 
-nav {
-  display: flex;
-  align-items: stretch;
-}
-
-.nav-bar {
+.nav {
   list-style: none;
   display: flex;
   gap: 2.6rem;
   align-items: stretch;
+  height: 100%;
 }
 
 .nav-link,
@@ -126,8 +122,10 @@ nav {
 
 .social-link {
   display: flex;
-  width: 2rem;
-  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .social-link:link,
@@ -141,8 +139,7 @@ nav {
 }
 
 .social-icon {
-  width: 2rem;
-  height: 2rem;
+  font-size: 2rem;
 }
 
 /******************************/
@@ -154,39 +151,29 @@ nav {
   background-size: cover;
   padding-top: 12rem;
   height: 75rem;
-}
-
-.promo-slogan-and-elements {
-  margin-top: 9.6rem;
+  text-align: center;
 }
 
 .promo-slogan {
   font-family: "Yeseva One", sans-serif;
   text-transform: lowercase;
-  text-align: center;
   font-size: 9rem;
-  line-height: 11.4rem;
-  font-weight: 100;
+  line-height: 12rem;
   color: #f5f5f5;
   text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+  margin-top: 9.6rem;
 }
 
 .promo-decoration {
-  text-align: center;
+  margin-top: 2.6rem;
+  width: 23.2rem;
+}
+
+.promo-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2.8rem;
   margin-top: 2.8rem;
-}
-
-.decoration {
-  width: 23.4rem;
-}
-
-.buttons-bar {
-  padding: 0 2rem;
-  text-align: center;
-  margin-top: 2.8rem;
-}
-
-.buttons {
   font-family: "Arial", sans-serif;
   text-transform: uppercase;
 }
@@ -198,7 +185,7 @@ nav {
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: 100;
-  padding: 1.7rem 4.9rem;
+  padding: 1.6rem 4.8rem;
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -209,7 +196,6 @@ nav {
 .btn--full:visited {
   background-color: rgba(0, 0, 0, 0.6);
   color: #f5f5f5;
-  margin-right: 2.8rem;
   border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
