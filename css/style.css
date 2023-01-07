@@ -174,22 +174,22 @@ html {
   justify-content: center;
   gap: 2.8rem;
   margin-top: 2.8rem;
-  font-family: "Arial", sans-serif;
-  text-transform: uppercase;
+  height: 5.6rem;  
+  align-items: stretch;  
 }
 
 .btn,
 .btn:link,
 .btn:visited {
-  display: inline-block;
+  display: flex;  
+  align-items: center;
   text-decoration: none;
-  font-size: 1.8rem;
-  font-weight: 100;
-  padding: 1.6rem 4.8rem;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 0.3s;
+  font-size: 1.8rem;  
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;    
+  transition: all 0.5s;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;  
 }
 
 .btn--full:link,
