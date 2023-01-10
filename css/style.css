@@ -53,8 +53,7 @@ html {
 
 .logo-container {
   margin-right: auto;
-  align-items: center;
-  position: relative;
+  align-items: center;  
   display: flex;
 }
 
