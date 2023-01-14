@@ -15,74 +15,81 @@
 </head>
 
 <body>
-  <div class="promo">
-    <header class="header">
-      <div class="logo-menu-bar">
-        <a class="logo" href="#">Lambda</a>
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link is-active">Home</a></li>
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Igredients</a></li>
-          <li><a class="main-nav-link" href="#">Menu</a></li>
-          <li><a class="main-nav-link" href="#">Reviews</a></li>
-          <li><a class="main-nav-link" href="#">Reservations</a></li>
-        </ul>
+  <div class="main-wrapper">
+    <header class="main-header">
+      <div class="logo-container">
+        <a href="index.html">
+          <h1 class="logo-text">Lambda</h1>
+        </a>
       </div>
+      <nav>
+        <ul class="nav">
+          <li>
+            <a class="nav-link is-active" href="#">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Igredients</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Reservations</a>
+          </li>
+        </ul>
+      </nav>
       <ul class="social-links">
-        <li><a class="social-link" href="https://twitter.com" target="_blank">
+        <li>
+          <a class="social-link" href="https://twitter.com" target="_blank">
             <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
-          </a></li>
-        <li><a class="social-link" href="https://www.youtube.com" target="_blank">
+          </a>
+        </li>
+        <li>
+          <a class="social-link" href="https://youtube.com" target="_blank">
             <ion-icon class="social-icon" name="logo-youtube"></ion-icon>
-          </a></li>
-        <li><a class="social-link" href="https://www.facebook.com" target="_blank">
+          </a>
+        </li>
+        <li>
+          <a class="social-link" href="https://facebook.com" target="_blank">
             <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
-          </a></li>
+          </a>
+        </li>
       </ul>
     </header>
     <main>
       <section class="promo-section">
-        <div class="promo-banner">
-          <div class="promo-slogan">
-            <p class="slogan">The right ingredients<br>for the right food</p>
-            <div class="promo-decoration">
-              <img src="gallery/decoration/decoration-1.png" class="decoration" alt="decoration-promo">
-            </div>
-            <div class="buttons-bar">
-              <div class="buttons">
-                <a href="#" class="btn btn--full">Book a table</a>
-                <a href="#" class="btn btn--outline">See the menu</a>
-              </div>
-            </div>
-          </div>
+        <h2 class="promo-slogan">The right ingredients<br>for the right food</h2>
+        <img src="gallery/decoration/decoration-1.png" class="promo-decoration" alt="decoration-promo">
+        <div class="promo-buttons">
+          <a href="#" class="btn btn--full">Book a table</a>
+          <a href="#" class="btn btn--outline">See the menu</a>
         </div>
       </section>
-
-      <section class="about-section">
-        <div class="banner-about-section">
-          <div class="grid-about-section">
-            <div class="left-column">
-              <p class="slogan-about-section">Just the right food</p>
-              <div class="decoration-about-section">
-                <img src="gallery/decoration/decoration-2.png" class="decoration-about" alt="decoration-about">
-              </div>
-              <p class="description-about-section">If you’ve been to one of our restaurants, you’ve seen – and tasted –
-                what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious
-                Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
-              <div class="cook-img-box">
-                <img src="/gallery/food/cook-men.png" class="cook-img" alt="Cook" />
-              </div>
-            </div>
-            <div class="right-column">
-              <div class="meal-img-box">
-                <img src="/gallery/food/meals.png" class="meal-img" alt="Meal" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
     </main>
+
+    <section class="about-section">
+      <div class="left-column">
+        <h3 class="slogan-about-section">Just the right food</h3>
+        <img src="gallery/decoration/decoration-2.png" class="decoration-about" alt="decoration-about">
+        <p class="description-about-section">If you’ve been to one of our restaurants, you’ve seen – and tasted –
+          what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious
+          Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+        <img src="/gallery/food/cook-men.png" class="cook-img" alt="Cook" />
+      </div>
+      <div class="right-column">
+        <div class="meal-img-box">
+          <source srcset="/gallery/food/meals.webp" type="image/webp" />
+          <source srcset="/gallery/food/meals.png" type="image/png" />
+          <img src="/gallery/food/meals.png" class="meal-img" alt="Meal" />
+        </div>
+      </div>
+    </section>
   </div>
 </body>
 
