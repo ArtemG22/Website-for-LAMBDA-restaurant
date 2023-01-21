@@ -281,62 +281,42 @@ html {
 .banner-about-section {
   background: url('../gallery/banners/about-banner.jpg');
   background-size: cover;
-  width: inherit;
-  height: inherit;
   padding-top: 5.6rem;
+  height: 71rem;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
 }
 
-.grid-about-section {
-  max-width: 140rem;
-  margin-left: 4.6rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.left-column {
+  padding-top: 4.2rem;
+  padding-left: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  text-align: center;
 }
 
 .slogan-about-section {
-  width: inherit;
-  margin-top: 4.4rem;
   font-family: "Yeseva One", sans-serif;
-  padding-left: 20.6rem;
-  text-align: center;
   font-size: 3.6rem;
-  font-weight: 100;
+  font-weight: 400;
   color: #e69824;
 }
 
-.decoration-about-section {
-  width: inherit;
-  padding-left: 20.6rem;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.decoration-about {
-  width: 25rem;
-}
-
 .description-about-section {
-  width: inherit;
-  padding: 0 2rem 0 22.6rem;
-  font-family: "Aria", sans-serif;
-  text-align: center;
-  margin-top: 2.6rem;
+  padding-top: 1.2rem;
+  font-family: "Lato", sans-serif;
   font-size: 1.6rem;
-  font-weight: 100;
-  color: #000;
+  font-weight: 700;
+  color: #696969;
   line-height: 2.4rem;
 }
 
-.cook-img-box {
-  padding-left: 20.6rem;
-  text-align: center;
-  margin-top: 5rem;
-}
-
 .cook-img {
-  width: 30rem;
+  padding-top: 3.6rem;
 }
 
-.meal-img {
-  width: 63rem;
+.meal-img-box {
+  justify-content: left;
 }
