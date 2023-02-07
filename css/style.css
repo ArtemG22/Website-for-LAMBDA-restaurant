@@ -234,14 +234,13 @@ html {
 
 .about-section {
   background: url('../gallery/banners/about-banner.png');
-  background-size: cover;
+  background-repeat: repeat;
   padding-top: 7.6rem;
-  padding-left: 29rem;
-  width: 160rem;
-  height: 71rem;
+  width: 100%;
   display: inline-flex;
-  justify-content: flex-start;
+  justify-content: center;
   box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
+  gap: 6.4rem;
   position: relative;
 }
 
@@ -253,18 +252,17 @@ html {
   left: 0;
   position: absolute;
   background: linear-gradient(to top left, rgba(85, 85, 85, 0.2) -100%, transparent 70%);
+  z-index: -1;
 }
 
 .our-mission {
-  position: relative;
+  height: 63.4rem;
   width: 42rem;
   padding-top: 2.2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
   align-items: center;
   text-align: center;
-  margin-right: 6.4rem;
 }
 
 .slogan-our-mission {
@@ -272,25 +270,25 @@ html {
   font-size: 3.6rem;
   font-weight: 400;
   color: #cc9900;
+  margin-bottom: 1.2rem;
 }
 
 .decoration-about {
   width: 24.8rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .description-our-mission {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 700;
   color: #4c4c4c;
   line-height: 2.4rem;
-  margin-bottom: 3.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .meal-img {
-  position: absolute;
-  height: 55.2rem;
+  height: 55.1rem;
   border-radius: 100%;
   box-shadow: 0 3rem 5rem rgb(0, 0, 0, 0.3);
 }
