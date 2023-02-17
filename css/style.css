@@ -303,15 +303,16 @@ html {
   background-size: cover;
   width: 100%;
   padding: 10rem 0;
-  padding-left: 81.5rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .dark-square {
   width: 57rem;
-  height: 55.8rem;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 7.6rem;
   text-align: center;
+  margin-right: 21.5rem;
 }
 
 .slogan-ingredients-section {
@@ -324,6 +325,7 @@ html {
 
 .decoration-ingredients {
   width: 25rem;
+  height: 2.4rem;
   margin-bottom: 2.4rem;
   opacity: 70%;
 }
@@ -334,7 +336,7 @@ html {
   font-weight: 400;
   color: #FFFFFF;
   line-height: 2.4rem;
-  margin-bottom: 6.4rem;
+  margin-bottom: 7rem;
 }
 
 .ingredients-list {
