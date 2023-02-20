@@ -302,20 +302,19 @@ html {
   background: url('../gallery/banners/ingredients-banner.jpg');
   background-size: cover;
   width: 100%;
-  padding: 10rem 0;
+  padding: 10rem 21.5rem 10rem 0;
   display: flex;
   justify-content: flex-end;
 }
 
-.dark-square {
+.ingredients-figure-container {
   width: 57rem;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 7.6rem;
   text-align: center;
-  margin-right: 21.5rem;
 }
 
-.slogan-ingredients-section {
+.heading-secondary-heading-light {
   font-family: "Yeseva One", sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
