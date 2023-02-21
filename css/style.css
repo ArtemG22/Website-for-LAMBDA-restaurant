@@ -184,6 +184,10 @@ html {
   color: #fff;
 }
 
+.indent {
+  padding-top: 2.8rem;
+}
+
 /******************************/
 /* PROMO SECTION */
 /******************************/
@@ -351,4 +355,95 @@ html {
   height: 11rem;
   border: 0.5rem solid rgba(255, 255, 255, 0.15);
   border-radius: 100%;
+}
+
+/******************************/
+/* MENU SECTION */
+/******************************/
+
+.menu-section {
+  background: url('../gallery/banners/menu-banner.png');
+  background-repeat: repeat;
+  padding: 10rem;
+  width: 100%;
+  box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
+  gap: 16.8rem;
+  position: relative;
+}
+
+.menu-section:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(to bottom right, rgba(85, 85, 85, 0.2) -100%, transparent 70%);
+  z-index: -1;
+}
+
+.menu-columns {
+  display: grid;
+  grid-template-columns: 43.2rem 43.2rem;
+  gap: 14rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.decoration-menu {
+  margin-bottom: 2.8rem;
+  width: 24.8rem;
+  height: 2.4rem;
+}
+
+.menu-items {
+  display: flex;
+  font-family: "Yeseva One", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #cc9900;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.menu-items-active {
+  border: 0.05rem solid #cc9900;
+  position: absolute;
+  width: 45.4rem;
+  height: 8rem;
+  opacity: 50%;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+
+.special {
+  font-family: "Aria", sans-serif;
+  position: absolute;
+  color: #FFFFFF;
+  width: 6.9rem;
+  height: 2.2rem;
+  background-color: #cc9900;
+  font-size: 1.2rem;
+  right: -0.05rem;
+  top: -2.2rem;
+  padding-top: 0.4rem;
+}
+
+.line-decoration {
+  background-color: #cc9900;
+  height: 0.1rem;
+  opacity: 30%;
+  margin-bottom: 1.2rem;
+}
+
+.menu-indent {
+  margin-bottom: 3.6rem;
+}
+
+.description-of-menu-items {
+  font-family: "Aria", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #696969;
+  text-align: left;
 }
