@@ -150,6 +150,41 @@ html {
 }
 
 /******************************/
+/* GENERAL STYLES FOR HEADINGS AND TEXT */
+/******************************/
+
+.heading-secondary {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.heading-light {
+  color: #fff;
+}
+
+.heading-dark {
+  color: #cc9900;
+}
+
+.main-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.text-dark {
+  color: #4c4c4c;
+}
+
+.text-light {
+  color: #fff;
+}
+
+/******************************/
 /* PROMO SECTION */
 /******************************/
 
@@ -265,30 +300,55 @@ html {
   text-align: center;
 }
 
-.slogan-our-mission {
-  font-family: "Yeseva One", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 400;
-  color: #cc9900;
-  margin-bottom: 1.2rem;
-}
-
 .decoration-about {
   width: 24.8rem;
   margin-bottom: 2.4rem;
-}
-
-.description-our-mission {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #4c4c4c;
-  line-height: 2.4rem;
-  margin-bottom: 4.8rem;
 }
 
 .meal-img {
   height: 55rem;
   border-radius: 100%;
   box-shadow: 0 3rem 5rem rgb(0, 0, 0, 0.3);
+}
+
+/******************************/
+/* INGREDIENTS SECTION */
+/******************************/
+
+.ingredients-section {
+  background: url('../gallery/banners/ingredients-banner.webp');
+  background: url('../gallery/banners/ingredients-banner.jpg');
+  background-size: cover;
+  width: 100%;
+  padding: 10rem 21.5rem 10rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ingredients-figure-container {
+  width: 57rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 7.6rem;
+  text-align: center;
+}
+
+.decoration-ingredients {
+  width: 25rem;
+  height: 2.4rem;
+  margin-bottom: 2.4rem;
+  opacity: 70%;
+}
+
+.ingredients-list {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding-top: 2.2rem;
+}
+
+.meals-circle {
+  width: 11rem;
+  height: 11rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.15);
+  border-radius: 100%;
 }
