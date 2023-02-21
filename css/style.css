@@ -161,7 +161,7 @@ html {
 }
 
 .heading-light {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .heading-dark {
@@ -176,12 +176,12 @@ html {
   margin-bottom: 4.8rem;
 }
 
-.text-style-dark {
+.text-dark {
   color: #4c4c4c;
 }
 
-.text-style-light {
-  color: #FFFFFF;
+.text-light {
+  color: #fff;
 }
 
 /******************************/
