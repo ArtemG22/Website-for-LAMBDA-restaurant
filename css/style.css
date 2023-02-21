@@ -150,6 +150,41 @@ html {
 }
 
 /******************************/
+/* GENERAL STYLES FOR HEADINGS AND TEXT */
+/******************************/
+
+.heading-secondary {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.heading-light {
+  color: #FFFFFF;
+}
+
+.heading-dark {
+  color: #cc9900;
+}
+
+.main-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.text-style-dark {
+  color: #4c4c4c;
+}
+
+.text-style-light {
+  color: #FFFFFF;
+}
+
+/******************************/
 /* PROMO SECTION */
 /******************************/
 
@@ -265,26 +300,9 @@ html {
   text-align: center;
 }
 
-.slogan-our-mission {
-  font-family: "Yeseva One", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 400;
-  color: #cc9900;
-  margin-bottom: 1.2rem;
-}
-
 .decoration-about {
   width: 24.8rem;
   margin-bottom: 2.4rem;
-}
-
-.description-our-mission {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #4c4c4c;
-  line-height: 2.4rem;
-  margin-bottom: 4.8rem;
 }
 
 .meal-img {
@@ -314,14 +332,6 @@ html {
   text-align: center;
 }
 
-.heading-secondary-heading-light {
-  font-family: "Yeseva One", sans-serif;
-  font-size: 3.6rem;
-  font-weight: 400;
-  color: #FFFFFF;
-  margin-bottom: 1.6rem;
-}
-
 .decoration-ingredients {
   width: 25rem;
   height: 2.4rem;
@@ -329,19 +339,11 @@ html {
   opacity: 70%;
 }
 
-.description-ingredients-section {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #FFFFFF;
-  line-height: 2.4rem;
-  margin-bottom: 7rem;
-}
-
 .ingredients-list {
   display: flex;
   gap: 3rem;
   justify-content: center;
+  padding-top: 2.2rem;
 }
 
 .meals-circle {
