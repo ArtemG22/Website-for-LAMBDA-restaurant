@@ -184,10 +184,6 @@ html {
   color: #fff;
 }
 
-.indent {
-  padding-top: 2.8rem;
-}
-
 /******************************/
 /* PROMO SECTION */
 /******************************/
@@ -353,7 +349,7 @@ html {
 .meals-circle {
   width: 11rem;
   height: 11rem;
-  border: 0.5rem solid rgba(255, 255, 255, 0.15);
+  border: 5px solid rgba(255, 255, 255, 0.15);
   border-radius: 100%;
 }
 
@@ -384,16 +380,24 @@ html {
 
 .menu-columns {
   display: grid;
-  grid-template-columns: 43.2rem 43.2rem;
-  gap: 14rem;
+  grid-template-columns: auto auto;
+  gap: 17rem;
   justify-content: center;
   text-align: center;
 }
 
-.decoration-menu {
+.menu-column {
+  width: 43.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;  
+}
+
+.menu-decoration {
   margin-bottom: 2.8rem;
   width: 24.8rem;
   height: 2.4rem;
+  opacity: 70%;
 }
 
 .menu-items {
@@ -407,13 +411,12 @@ html {
 }
 
 .menu-items-active {
-  border: 0.05rem solid #cc9900;
+  border: 0.5px solid #cc9900;
   position: absolute;
   width: 45.4rem;
   height: 8rem;
-  opacity: 50%;
-  margin-left: -1rem;
-  margin-top: -1rem;
+  opacity: 50%; 
+  transform: translate(-10px, -10px);  
 }
 
 .special {
@@ -436,7 +439,7 @@ html {
   margin-bottom: 1.2rem;
 }
 
-.description-of-menu-items {
+.menu-items-description {
   font-family: "Aria", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
