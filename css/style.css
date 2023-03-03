@@ -362,6 +362,8 @@ html {
   background-repeat: repeat;
   padding-top: 10rem;
   padding-bottom: 6.4rem;
+  padding-left: 28rem;
+  padding-right: 28rem;
   width: 100%;
   box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
   position: relative;
@@ -380,17 +382,17 @@ html {
 
 .menu-columns {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 17rem;
   justify-content: center;
   text-align: center;
 }
 
 .menu-column {
-  width: 43.2rem;
   display: flex;
   flex-direction: column;
-  gap: 2.8rem;  
+  gap: 2.8rem;
+  position: relative;
 }
 
 .menu-decoration {
@@ -411,12 +413,12 @@ html {
 }
 
 .menu-items-active {
-  border: 0.5px solid #cc9900;
+  content: '';
+  border: 1px solid rgba(204, 153, 0, 0.5);
   position: absolute;
-  width: 45.4rem;
+  width: 100%;
   height: 8rem;
-  opacity: 50%; 
-  transform: translate(-10px, -10px);  
+  transform: translate(0, -10px) scale(1.05, 1);
 }
 
 .special {
@@ -425,18 +427,11 @@ html {
   color: #FFFFFF;
   width: 6.9rem;
   height: 2.2rem;
-  background-color: #cc9900;
+  background-color: rgba(204, 153, 0, 0.5);
   font-size: 1.2rem;
   right: -0.05rem;
   top: -2.2rem;
   padding-top: 0.4rem;
-}
-
-.line-decoration {
-  background-color: #cc9900;
-  height: 0.1rem;
-  opacity: 30%;
-  margin-bottom: 1.2rem;
 }
 
 .menu-items-description {
@@ -446,4 +441,6 @@ html {
   color: #696969;
   text-align: left;
   margin-bottom: 3.6rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(204, 153, 0, 0.3);
 }
