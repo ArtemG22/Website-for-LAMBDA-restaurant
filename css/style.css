@@ -360,7 +360,7 @@ html {
 .menu-section {
   background: url('../gallery/banners/menu-banner.png');
   background-repeat: repeat;
-  padding: 10rem 28rem 6.4rem;
+  padding: 10rem 28rem 3.6rem;
   width: 100%;
   box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
   position: relative;
@@ -378,18 +378,13 @@ html {
 }
 
 .menu-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 17rem;
-  justify-content: center;
+  columns: 2;
+  column-gap: 18rem;
   text-align: center;
 }
 
-.menu-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2.8rem;
-  position: relative;
+.food-category {
+  padding-bottom: 2.8rem;
 }
 
 .menu-decoration {
@@ -400,6 +395,7 @@ html {
 }
 
 .menu-items {
+  columns: 2;
   display: flex;
   font-family: "Yeseva One", sans-serif;
   font-size: 2rem;
@@ -409,7 +405,7 @@ html {
   margin-bottom: 0.8rem;
 }
 
-.menu-items-active {
+.active::before {
   content: '';
   border: 1px solid rgba(204, 153, 0, 0.5);
   position: absolute;
@@ -418,16 +414,17 @@ html {
   transform: translate(0, -10px) scale(1.05, 1);
 }
 
-.special {
+.active::after {
+  content: 'Special';
   font-family: "Aria", sans-serif;
   position: absolute;
   color: #FFFFFF;
   width: 6.9rem;
-  height: 2.2rem;
+  height: 1.8rem;
   background-color: rgba(204, 153, 0, 0.5);
   font-size: 1.2rem;
-  right: -0.05rem;
-  top: -2.2rem;
+  right: -1.3rem;
+  top: -3.2rem;
   padding-top: 0.4rem;
 }
 
@@ -437,7 +434,11 @@ html {
   font-weight: 400;
   color: #696969;
   text-align: left;
-  margin-bottom: 3.6rem;
   padding-top: 1.1rem;
   border-top: 1px solid rgba(204, 153, 0, 0.3);
+}
+
+article {
+  margin-bottom: 3.6rem;
+  position: relative;
 }
