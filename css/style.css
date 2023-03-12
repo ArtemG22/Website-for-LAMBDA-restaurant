@@ -388,6 +388,8 @@ html {
 
 .food-category {
   padding-bottom: 2.8rem;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0); */
+  /* overflow: hidden; */
 }
 
 .menu-decoration {
@@ -413,7 +415,9 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  transform: scale(1.05, 1.32);
+  padding: 1rem;
+  top: -1rem;
+  right: -1rem;
 }
 
 .active-menu-items::after {
@@ -421,13 +425,11 @@ html {
   font-family: "Aria", sans-serif;
   position: absolute;
   color: #FFFFFF;
-  width: 6.9rem;
-  height: 1.8rem;
   background-color: rgba(204, 153, 0, 0.5);
   font-size: 1.2rem;
-  right: -1.27rem;
-  top: -3.22rem;
-  padding-top: 0.4rem;
+  right: -1rem;
+  top: -3rem;
+  padding: 0.3rem 1.2rem;
   text-align: center;
 }
 
@@ -440,6 +442,17 @@ html {
   padding-top: 1.1rem;
   border-top: 1px solid rgba(204, 153, 0, 0.3);
 }
+
+/* .menu-items-description::after {
+  content: "";
+  position: absolute;
+  border-top: 1px solid rgba(204, 153, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.1rem;
+  left: 0;
+  top: -1.1rem;
+} */
 
 article {
   margin-bottom: 3.6rem;
