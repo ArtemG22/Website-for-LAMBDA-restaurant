@@ -360,7 +360,7 @@ html {
 .menu-section {
   background: url('../gallery/banners/menu-banner.png');
   background-repeat: repeat;
-  padding: 10rem 28rem 6rem;
+  padding: 10rem 28rem 3.8rem;
   width: 100%;
   box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
   position: relative;
@@ -379,13 +379,11 @@ html {
 
 .menu-columns {
   columns: 2;
-  column-gap: 18rem;  
+  column-gap: 18rem;
 }
 
-.menu-category-list {
-  display: flex;
-  flex-flow: column;
-  gap: 3.2rem;
+.food-category {
+  margin-bottom: 6rem;
 }
 
 .menu-header-decor {
@@ -397,6 +395,12 @@ html {
   width: 24.8rem;
   height: 2.4rem;
   opacity: 70%;
+}
+
+.list-menu-items {
+  display: flex;
+  flex-flow: column;
+  gap: 3.6rem;
 }
 
 .menu-items {
@@ -439,12 +443,11 @@ html {
   font-weight: 400;
   color: #696969;
   text-align: left;
-  padding-top: 1.1rem;
+  padding-top: 1.2rem;
   border-top: 1px solid rgba(204, 153, 0, 0.3);
-  margin-bottom: 3.6rem;
 }
 
-article {  
+li {
   position: relative;
 }
 
