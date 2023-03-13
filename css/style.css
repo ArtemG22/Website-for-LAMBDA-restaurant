@@ -360,7 +360,7 @@ html {
 .menu-section {
   background: url('../gallery/banners/menu-banner.png');
   background-repeat: repeat;
-  padding: 10rem 28rem 3.8rem;
+  padding: 10rem 28rem 9.8rem;
   width: 100%;
   box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
   position: relative;
@@ -422,6 +422,7 @@ html {
   padding: 1rem;
   top: -1rem;
   right: -1rem;
+  z-index: -1;
 }
 
 .active-menu-items::after {
@@ -453,4 +454,8 @@ li {
 
 ul {
   list-style-type: none;
+}
+
+.menu-columns li:nth-child(even) {
+  margin-bottom: 0rem;
 }
