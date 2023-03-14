@@ -448,7 +448,7 @@ html {
   border-top: 1px solid rgba(204, 153, 0, 0.3);
 }
 
-li {
+.active-menu-items {
   position: relative;
 }
 
@@ -456,6 +456,6 @@ ul {
   list-style-type: none;
 }
 
-.menu-columns li:nth-child(even) {
+.menu-columns .food-category:nth-child(even) {
   margin-bottom: 0rem;
 }
