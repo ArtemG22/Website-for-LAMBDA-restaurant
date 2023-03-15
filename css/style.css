@@ -184,6 +184,13 @@ html {
   color: #fff;
 }
 
+.decoration-light {
+  width: 25rem;
+  height: 2.4rem;
+  margin-bottom: 2.4rem;
+  opacity: 70%;
+}
+
 /******************************/
 /* PROMO SECTION */
 /******************************/
@@ -471,8 +478,6 @@ ul {
   background-size: cover;
   width: 100%;
   padding: 10rem 41.6rem;
-  display: flex;
-  justify-content: center;
 }
 
 .reviews-figure-container {
@@ -482,13 +487,14 @@ ul {
   position: relative;
 }
 
-.quotes {
+.description-reviews-section::before {
+  content: "''";
   position: absolute;
   font-family: 'Secular One', sans-serif;
   font-size: 8rem;
   color: #989a98;
   rotate: 180deg;
-  top: 11.2rem;
+  top: 15rem;
   left: 2rem;
 }
 
