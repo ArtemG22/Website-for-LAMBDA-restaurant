@@ -184,6 +184,13 @@ html {
   color: #fff;
 }
 
+.decoration-light {
+  width: 25rem;
+  height: 2.4rem;
+  margin-bottom: 2.4rem;
+  opacity: 70%;
+}
+
 /******************************/
 /* PROMO SECTION */
 /******************************/
@@ -458,4 +465,52 @@ ul {
 
 .menu-columns .food-category:nth-child(even) {
   margin-bottom: 0rem;
+}
+
+
+/******************************/
+/* REVIEWS SECTION */
+/******************************/
+
+.reviews-section {
+  background: url('../gallery/banners/reviews-banner.webp');
+  background: url('../gallery/banners/reviews-banner.jpg');
+  background-size: cover;
+  width: 100%;
+  padding: 10rem 41.6rem;
+}
+
+.reviews-figure-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 7.6rem;
+  text-align: center;
+  position: relative;
+}
+
+.description-reviews-section::before {
+  content: "''";
+  position: absolute;
+  font-family: 'Secular One', sans-serif;
+  font-size: 8rem;
+  color: #989a98;
+  rotate: 180deg;
+  top: 15rem;
+  left: 2rem;
+}
+
+.description-reviews-section {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #dcdcdc;
+  line-height: 4.5rem;
+  margin-bottom: 2.8rem;
+}
+
+.review-author {
+  color: #dcdcdc;
+  font-family: "Aria", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2.9rem;
 }
