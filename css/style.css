@@ -172,8 +172,7 @@ html {
   font-family: 'Lato', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 2.4rem;
-  margin-bottom: 4.8rem;
+  line-height: 2.4rem;  
 }
 
 .text-dark {
@@ -307,9 +306,8 @@ html {
   text-align: center;
 }
 
-.decoration-about {
-  width: 24.8rem;
-  margin-bottom: 2.4rem;
+.about-indent {
+  margin-bottom: 4.8rem;
 }
 
 .meal-img {
@@ -480,7 +478,7 @@ ul {
   padding: 10rem 41.6rem;
 }
 
-.reviews-figure-container {
+.reviews-content-container {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 7.6rem;
   text-align: center;
@@ -513,4 +511,108 @@ ul {
   font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: 2.9rem;
+}
+
+/******************************/
+/* RESERVATIONS SECTION */
+/******************************/
+
+.reservations-section {
+  background: url('../gallery/banners/reservations-banner.png');
+  background-repeat: repeat;
+  padding: 10rem;
+  width: 100%;
+  box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.reservations-section:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(to top left, rgba(85, 85, 85, 0.2) -100%, transparent 70%);
+  z-index: -1;
+}
+
+.reservations-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.reservations-images {
+  display: flex;
+  gap: 3rem;
+}
+
+.reservations-images-size {
+  height: 100%;
+}
+
+.reservations-section-description-form {
+  width: 42.8rem;
+  text-align: center;
+}
+
+.cont-indent {
+  display: flex;
+  flex-flow: column;
+  gap: 1.2rem;
+  margin-bottom: 3.6rem;
+}
+
+/******************************/
+/* FORM */
+/******************************/
+
+.entry-field,
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+}
+
+.form-columns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-cell {
+  width: 20rem;
+  margin-right: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.entry-field {
+  font-weight: 700;
+  color: #c9a131;
+  text-align: left;
+  margin-bottom: 0.8rem;
+}
+
+input::placeholder {
+  color: #989a98;
+  font-style: italic;
+}
+
+input {
+  width: inherit;
+  height: 3.6rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid #989a98;
+  opacity: 70%;
+}
+
+input:hover {
+  border: 1px solid #c9a131;
+}
+
+.button-form {
+  background-color: #c9a131;
+  color: #fff;
+  border: none;
+  width: 20rem;
 }
