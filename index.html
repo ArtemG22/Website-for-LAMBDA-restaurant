@@ -92,7 +92,7 @@
           <h3 class="heading-secondary heading-dark">Just the right food</h3>
         </figcaption>
         <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
-        <blockquote class="main-description text-dark about-indent">If you’ve been to one of our restaurants, you’ve seen – and
+        <blockquote class="main-description text-dark">If you’ve been to one of our restaurants, you’ve seen – and
           tasted –
           what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious
           Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
@@ -310,52 +310,56 @@
             alt="breakfast plate with nuts and fresh fruits">
         </figure>
         <div class="reservations-section-description-form">
-          <h3 class="heading-secondary heading-dark">Just the rigth food</h3>
+          <h3 class="heading-secondary heading-dark">Just the right food</h3>
           <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
-          <blockquote class="main-description text-dark cont-indent">
+          <blockquote class="main-description text-dark">
             <p>If you’ve been to one of our restaurants, you’ve seen – and
               tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food
             </p>
+            <br>
             <p>Delicious Lambda cakes, muffins, and gourmet coffees make
               us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
             </p>
           </blockquote>
 
           <form>
-            <div class="form-columns">
-              <div>
-                <div class="form-cell">
-                  <p class="entry-field">Name</p>
-                  <input type="text" name="name" required="required" placeholder="your name *">
+            <div class="booking-form">
+              <div class="form-cell">
+                <div class="entry-field">
+                  <label for="name">Name</label>
                 </div>
-                <div class="form-cell">
-                  <p class="entry-field">Date</p>
-                  <input type="date" name="calendar" placeholder="date *">
-                </div>
+                <input type="text" name="name" required="required" placeholder="your name *" id="name">
               </div>
-
-              <div>
-                <div class="form-cell">
-                  <p class="entry-field">Name</p>
-                  <input type="text" name="name" required="required" placeholder="your email *">
+              <div class="form-cell">
+                <div class="entry-field">
+                  <label for="email">Name</label>
                 </div>
-                <div class="form-cell">
-                  <p class="entry-field">Party number</p>
-                  <input type="number" list="partynumber" placeholder="party number" />
-                  <datalist id="partynumber">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                  </datalist>
+                <input type="text" name="email" required="required" placeholder="your email *" id="email">
+              </div>
+              <div class="form-cell">
+                <div class="entry-field">
+                  <label for="calendar">Date</label>
                 </div>
+                <input type="date" name="calendar" placeholder="date *" id="calendar">
+              </div>
+              <div class="form-cell">
+                <div class="entry-field">
+                  <label for="party-number">Party number</label>
+                </div>
+                <input type="number" list="partynumber" placeholder="party number" id="party-number" />
+                <datalist id="partynumber">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </datalist>
               </div>
             </div>
 
             <div>
-              <input class="button-form" type="submit" name="submit_btn" value="Book now!">
-              </input>
+              <button class="form-button" type="submit">Book now!</button>
+            </div>
           </form>
         </div>
       </div>
