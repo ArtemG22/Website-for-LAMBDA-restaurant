@@ -303,47 +303,48 @@
 
     <section class="reservations-section">
       <div class="reservations-section-container">
-        <figure class="reservations-images">
-          <img src="gallery/food/dessert.jpg" class="reservations-images-size"
+        <figure class="reservations-images-container">
+          <img src="gallery/food/dessert.jpg" class="reservations-images"
             alt="plate of delicious dessert with chocolate nougat">
-          <img src="gallery/food/strawberry.jpg" class="reservations-images-size"
+          <img src="gallery/food/strawberry.jpg" class="reservations-images"
             alt="breakfast plate with nuts and fresh fruits">
         </figure>
-        <div class="reservations-section-description-form">
+        <div class="reservations-section-description-and-form-container">
           <h3 class="heading-secondary heading-dark">Just the right food</h3>
           <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
           <blockquote class="main-description text-dark">
-            <p>If you’ve been to one of our restaurants, you’ve seen – and
-              tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food
-            </p>
-            <br>
-            <p>Delicious Lambda cakes, muffins, and gourmet coffees make
-              us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
-            </p>
+            <div class="reservations-description-container">
+              <p>If you’ve been to one of our restaurants, you’ve seen – and
+                tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food
+              </p>
+              <p>Delicious Lambda cakes, muffins, and gourmet coffees make
+                us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
+              </p>
+            </div>
           </blockquote>
 
           <form>
-            <div class="booking-form">
-              <div class="form-cell">
-                <div class="entry-field">
+            <div class="data-entry-container">
+              <div class="type-and-data-input-cell">
+                <div class="data-type">
                   <label for="name">Name</label>
                 </div>
                 <input type="text" name="name" required="required" placeholder="your name *" id="name">
               </div>
-              <div class="form-cell">
-                <div class="entry-field">
-                  <label for="email">Name</label>
+              <div class="type-and-data-input-cell">
+                <div class="data-type">
+                  <label for="email">Email</label>
                 </div>
                 <input type="text" name="email" required="required" placeholder="your email *" id="email">
               </div>
-              <div class="form-cell">
-                <div class="entry-field">
+              <div class="type-and-data-input-cell">
+                <div class="data-type">
                   <label for="calendar">Date</label>
                 </div>
                 <input type="date" name="calendar" placeholder="date *" id="calendar">
               </div>
-              <div class="form-cell">
-                <div class="entry-field">
+              <div class="type-and-data-input-cell">
+                <div class="data-type">
                   <label for="party-number">Party number</label>
                 </div>
                 <input type="number" list="partynumber" placeholder="party number" id="party-number" />
@@ -355,10 +356,7 @@
                   <option value="5">5</option>
                 </datalist>
               </div>
-            </div>
-
-            <div>
-              <button class="form-button" type="submit">Book now!</button>
+              <button class="sending-data" type="submit">Book now!</button>
             </div>
           </form>
         </div>

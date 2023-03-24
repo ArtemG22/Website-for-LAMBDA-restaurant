@@ -540,53 +540,56 @@ ul {
   gap: 10rem;
 }
 
-.reservations-images {
+.reservations-images-container {
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
+  width: 57rem;
 }
 
-.reservations-images-size {
-  height: 51rem;
+.reservations-images {
+  height: 100%;
 }
 
-.reservations-section-description-form {
+.reservations-section-description-and-form-container {
   width: 42.8rem;
   text-align: center;
+}
+
+.reservations-description-container {
+  display: flex;
+  flex-flow: column;
+  gap: 1.6rem;
 }
 
 /******************************/
 /* FORM */
 /******************************/
 
-.entry-field,
-input {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.6rem;
-}
-
-.booking-form {  
+.data-entry-container {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
   column-gap: 2.8rem;
-  row-gap: 1.6rem;
-  margin-bottom: 2.4rem;
+  row-gap: 2.4rem;
+  grid-template-areas:
+    "A   B"
+    "A   B"
+    "C   C";
 }
 
-.form-cell {
+.type-and-data-input-cell {
   width: 20rem;
 }
 
-.entry-field {
+.data-type {
   font-weight: 700;
   color: #c9a131;
   text-align: left;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
 }
 
-input::placeholder {
-  color: #989a98;
-  font-style: italic;
+.data-type,
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
 }
 
 input {
@@ -597,11 +600,16 @@ input {
   opacity: 70%;
 }
 
+input::placeholder {
+  color: #989a98;
+  font-style: italic;
+}
+
 input:hover {
   border: 1px solid #c9a131;
 }
 
-.form-button {
+.sending-data {
   background-color: #c9a131;
   color: #fff;
   border: none;
@@ -611,7 +619,12 @@ input:hover {
   font-size: 1.6rem;
 }
 
-.form-button:hover {
+.sending-data:hover {
   background-color: #bb952c;
-  transition: background-color 0.5s;  
+  transition: background-color 0.5s;
+}
+
+.sending-data {
+  grid-area: C;
+  margin: auto;
 }
