@@ -542,12 +542,14 @@ ul {
 
 .reservations-images-container {
   display: flex;
-  justify-content: space-between;
+  gap: 3rem;
   width: 57rem;
 }
 
 .reservations-images {
   height: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .reservations-section-description-and-form-container {
