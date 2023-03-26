@@ -569,6 +569,7 @@ ul {
 
 .data-entry-container {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 2.8rem;
   row-gap: 2.4rem;
   grid-template-areas:
@@ -578,7 +579,7 @@ ul {
 }
 
 .type-and-data-input-cell {
-  width: 20rem;
+  width: 100%;
 }
 
 .data-type {
