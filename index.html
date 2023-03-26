@@ -309,11 +309,13 @@
           <img src="gallery/food/strawberry.jpg" class="reservations-images"
             alt="breakfast plate with nuts and fresh fruits">
         </figure>
-        <div class="reservations-section-description-and-form-container">
-          <h3 class="heading-secondary heading-dark">Just the right food</h3>
-          <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
+        <div class="reservations-description-container">
+          <div class="reservations-description-header">
+            <h3 class="heading-secondary heading-dark">Just the right food</h3>
+            <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
+          </div>
           <blockquote class="main-description text-dark">
-            <div class="reservations-description-container">
+            <div class="reservations-text">
               <p>If you’ve been to one of our restaurants, you’ve seen – and
                 tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food
               </p>
@@ -323,29 +325,21 @@
             </div>
           </blockquote>
 
-          <form class="data-entry-container">
-            <div class="type-and-data-input-cell">
-              <div class="data-type">
-                <label for="name">Name</label>
-              </div>
+          <form class="reservations-form">
+            <div class="form-input-block">
+              <label for="name">Name</label>
               <input type="text" name="name" required="required" placeholder="your name *" id="name">
             </div>
-            <div class="type-and-data-input-cell">
-              <div class="data-type">
-                <label for="email">Email</label>
-              </div>
+            <div class="form-input-block">
+              <label for="email">Email</label>
               <input type="text" name="email" required="required" placeholder="your email *" id="email">
             </div>
-            <div class="type-and-data-input-cell">
-              <div class="data-type">
-                <label for="calendar">Date</label>
-              </div>
+            <div class="form-input-block">
+              <label for="calendar">Date</label>
               <input type="date" name="calendar" placeholder="date *" id="calendar">
             </div>
-            <div class="type-and-data-input-cell">
-              <div class="data-type">
-                <label for="party-number">Party number</label>
-              </div>
+            <div class="form-input-block">
+              <label for="party-number">Party number</label>
               <input type="number" list="partynumber" placeholder="party number" id="party-number" />
               <datalist id="partynumber">
                 <option value="1">1</option>
@@ -355,7 +349,7 @@
                 <option value="5">5</option>
               </datalist>
             </div>
-            <button class="sending-data" type="submit">Book now!</button>
+            <button class="sending-data-button" type="submit">Book now!</button>
           </form>
         </div>
       </div>
