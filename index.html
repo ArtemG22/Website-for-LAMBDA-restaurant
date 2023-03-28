@@ -91,7 +91,7 @@
         <figcaption>
           <h3 class="heading-secondary heading-dark">Just the right food</h3>
         </figcaption>
-        <img src="gallery/decoration/decoration-2.png" class="decoration-about" alt="Decorative element">
+        <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
         <blockquote class="main-description text-dark">If you’ve been to one of our restaurants, you’ve seen – and
           tasted –
           what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious
@@ -286,7 +286,7 @@
     </section>
 
     <section class="reviews-section">
-      <div class="reviews-figure-container">
+      <div class="reviews-content-container">
         <figure>
           <figcaption>
             <h3 class="heading-secondary heading-light">Guest Reviews</h3>
@@ -298,6 +298,60 @@
           </blockquote>
           <p class="review-author">- food inc, New York</p>
         </figure>
+      </div>
+    </section>
+
+    <section class="reservations-section">
+      <div class="reservations-section-container">
+        <figure class="reservations-images-container">
+          <img src="gallery/food/dessert.jpg" class="reservations-images"
+            alt="plate of delicious dessert with chocolate nougat">
+          <img src="gallery/food/strawberry.jpg" class="reservations-images"
+            alt="breakfast plate with nuts and fresh fruits">
+        </figure>
+        <div class="reservations-description-container">
+          <div class="reservations-description-header">
+            <h3 class="heading-secondary heading-dark">Just the right food</h3>
+            <img src="gallery/decoration/decoration-2.png" class="decoration-light" alt="Decorative element">
+          </div>
+          <blockquote class="main-description text-dark">
+            <div class="reservations-text">
+              <p>If you’ve been to one of our restaurants, you’ve seen – and
+                tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food
+              </p>
+              <p>Delicious Lambda cakes, muffins, and gourmet coffees make
+                us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
+              </p>
+            </div>
+          </blockquote>
+
+          <form class="reservations-form">
+            <div class="form-input-block">
+              <label for="name">Name</label>
+              <input type="text" name="name" required="required" placeholder="your name *" id="name">
+            </div>
+            <div class="form-input-block">
+              <label for="email">Email</label>
+              <input type="text" name="email" required="required" placeholder="your email *" id="email">
+            </div>
+            <div class="form-input-block">
+              <label for="calendar">Date</label>
+              <input type="date" name="calendar" placeholder="date *" id="calendar">
+            </div>
+            <div class="form-input-block">
+              <label for="party-number">Party number</label>
+              <input type="number" list="partynumber" placeholder="party number" id="party-number" />
+              <datalist id="partynumber">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </datalist>
+            </div>
+            <button class="form-submit-button" type="submit">Book now!</button>
+          </form>
+        </div>
       </div>
     </section>
 

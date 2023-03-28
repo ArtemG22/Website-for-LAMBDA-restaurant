@@ -173,7 +173,7 @@ html {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.4rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 4rem;
 }
 
 .text-dark {
@@ -307,11 +307,6 @@ html {
   text-align: center;
 }
 
-.decoration-about {
-  width: 24.8rem;
-  margin-bottom: 2.4rem;
-}
-
 .meal-img {
   height: 55rem;
   border-radius: 100%;
@@ -350,7 +345,7 @@ html {
   display: flex;
   gap: 3rem;
   justify-content: center;
-  padding-top: 2.2rem;
+  padding-top: 3rem;
 }
 
 .meals-circle {
@@ -480,7 +475,7 @@ ul {
   padding: 10rem 41.6rem;
 }
 
-.reviews-figure-container {
+.reviews-content-container {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 7.6rem;
   text-align: center;
@@ -513,4 +508,118 @@ ul {
   font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: 2.9rem;
+}
+
+/******************************/
+/* RESERVATIONS SECTION */
+/******************************/
+
+.reservations-section {
+  background: url('../gallery/banners/reservations-banner.png');
+  background-repeat: repeat;
+  padding: 10rem;
+  width: 100%;
+  box-shadow: inset 0 0 6rem rgb(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.reservations-section:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(to top left, rgba(85, 85, 85, 0.2) -100%, transparent 70%);
+  z-index: -1;
+}
+
+.reservations-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.reservations-images-container {
+  display: flex;
+  gap: 3rem;
+  width: 57rem;
+}
+
+.reservations-images {
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.reservations-description-container {
+  width: 42.8rem;
+}
+
+.reservations-description-header {
+  text-align: center;
+}
+
+.reservations-text {
+  display: flex;
+  flex-flow: column;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+/******************************/
+/* FORM */
+/******************************/
+
+.reservations-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.8rem;
+  row-gap: 2.4rem;
+}
+
+.form-input-block {
+  font-weight: 700;
+  color: #c9a131;
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  gap: 0.4rem;
+}
+
+.form-input-block,
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+}
+
+input {
+  height: 3.6rem;
+  padding: 0.4rem 1.2rem;
+  border: 1px solid #989a98;  
+}
+
+input::placeholder {
+  color: #989a98;
+  font-style: italic;
+}
+
+input:hover {
+  border: 1px solid #c9a131;
+}
+
+.form-submit-button {
+  background-color: #c9a131;
+  color: #fff;
+  border: none;  
+  padding: 0.4rem 6.4rem;
+  height: 3.6rem;
+  font-size: 1.6rem;
+  grid-column: span 2;
+  margin: auto;
+}
+
+.form-submit-button:hover {
+  background-color: #bb952c;
+  transition: background-color 0.5s;
 }
